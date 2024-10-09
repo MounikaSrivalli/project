@@ -16,12 +16,12 @@ car_brands = [
 ]
 
 # Retrieve data from all collections
-for brand in car_brands:
-    collection = db[brand]
-    # Retrieve all documents from the current collection
-    data = collection.find()
+# for brand in car_brands:
+#     collection = db[brand]
+#     # Retrieve all documents from the current collection
+#     data = collection.find()
     
-    print(f"Data from {brand} collection:")
-    for document in data:
-        print(document)
-    print("\n")  # Print a newline for better readability
+#     print(f"Data from {brand} collection:")
+#     for document in data:
+#         print(document)
+#     print("\n")  # Print a newline for better readability
